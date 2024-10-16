@@ -1,12 +1,12 @@
 {
   "name": "vite-ts-react-template",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ignore-path .gitignore",
     "preview": "vite preview"
   },
   "dependencies": {
